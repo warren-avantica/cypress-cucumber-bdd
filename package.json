@@ -1,0 +1,29 @@
+{
+  "name": "cypress-cucumber-bdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warren-avantica/cypress-cucumber-bdd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/warren-avantica/cypress-cucumber-bdd/issues"
+  },
+  "homepage": "https://github.com/warren-avantica/cypress-cucumber-bdd#readme",
+  "dependencies": {
+    "cypress": "^4.3.0",
+    "cypress-cucumber-preprocessor": "^2.2.0",
+    "prettier": "^2.0.3"
+  },
+  "cypress-cucumber-preprocessor" : {
+    "nonGlobalStepDefinitions": true
+  }
+}
